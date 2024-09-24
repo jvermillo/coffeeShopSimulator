@@ -15,7 +15,7 @@ donutCount = int(input('And how many donuts do you want? Donuts are $4 each '))
 
 # Total Price
 total = round(((coffeeCount + muffinCount + sandwichCount + donutCount) * 1.06), 2)
-print('The total will be', str(total) + '.')
+print('The total will be $', str(total) + '.')
 
 # Thank You Message
 print('Thank you for visiting Marshmallow Cat Cafe! Come back anytime! :3')
