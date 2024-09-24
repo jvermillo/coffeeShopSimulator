@@ -10,8 +10,8 @@ print('Welcome to Marshmallow Cat Cafe! A cafe for all things sweet and tight-kn
 # Quantity of Individual Items
 coffeeCount = int(input('How many coffees will you be having? Coffee is $5 each '))
 muffinCount = int(input('And how many muffins do you want? Muffins are $4 each '))
-sandwichCount = int(input('And how many sandwiches do you want? Sandwiches are $7 each ')
-donutCount = int(input('And how many donuts do you want? Donuts are $4 each ')
+sandwichCount = int(input('And how many sandwiches do you want? Sandwiches are $7 each '))
+donutCount = int(input('And how many donuts do you want? Donuts are $4 each '))
 
 # Total Price
 total = round(((coffeeCount + muffinCount + sandwichCount + donutCount) * 1.06), 2)
